@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 0fr 1fr;
   gap: 36px;
   align-items: center;
-  justify-items: center;
+  align-content: center;
   margin: 92px auto 96px;
   padding: 0 26px;
 }
@@ -17,10 +17,9 @@
   gap: 32px;
 }
 
-.header__logo {
+.header__logo-image {
   width: 148px;
   height: 105px;
-  align-items: center;
 }
 
 .header__links-list-item {
@@ -33,6 +32,11 @@
 
 .header__link-active {
   text-decoration: none;
+}
+
+.address {
+  width: 240px;
+  justify-self: end;
 }
 
 .cover {
